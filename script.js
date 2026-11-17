@@ -12,7 +12,7 @@ if (menuToggle && navLinks) {
         const isOpen = navLinks.classList.contains("show");
 
         menuToggle.setAttribute("aria-expanded", isOpen);
-        menuToggle.setAttribute(
+            menuToggle.setAttribute(
             "aria-label",
             isOpen ? "Close navigation" : "Open navigation"
         );
@@ -47,7 +47,7 @@ if (menuToggle && navLinks) {
             menuToggle.classList.remove("active");
 
             menuToggle.setAttribute("aria-expanded", "false");
-            menuToggle.setAttribute("aria-label", "Open navigation");
+             menuToggle.setAttribute("aria-label", "Open navigation");
 
         }
 
